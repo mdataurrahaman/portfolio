@@ -1,0 +1,65 @@
+@media screen and (max-width: 1199px) {
+    
+
+    
+
+
+
+}
+
+@media screen and (max-width: 991px) {
+
+.nav-social{ 
+position: absolute;
+right: 0;
+top: 0;
+
+}
+.navbar-collapse{
+  background: white;
+  margin-top: 10px;
+}
+.col-6{
+  width: 100%;
+}
+
+.nav-link{
+  color: #000 !important;
+}
+.nav-link p {
+  display: block !important;
+  position: absolute;
+  top: 50%;
+  left: 0 !important;
+  transform: translate(-50%, -50%) !important;
+  margin-left: 70px;
+
+  }
+.nav-item{
+margin: 4px 5px;
+}
+.p-info{
+width: 100% !important;
+height: 500px;
+}
+
+.remove{
+  display: none;
+}
+}
+.navbar-toggler-icon{
+  color: #fff !important;
+  
+}
+
+@media screen and (max-width: 767px) {
+
+}
+
+
+@media screen and (max-width: 576px) {
+  
+
+
+}
+

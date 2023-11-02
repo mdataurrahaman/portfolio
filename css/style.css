@@ -1,0 +1,125 @@
+*{ margin: 0 ;
+    padding: 0;
+    outline: 0;
+    border: 0;
+    box-sizing: border-box;
+    
+
+}
+
+body{
+font-family: 'Titillium Web', sans-serif;
+font-size: 18px;
+line-height: 24px;
+color: #f8f9fa;
+line-height: auto;
+
+
+}
+.nav-item{
+    margin: auto 35px;
+    
+}
+.nav-link{
+    color: black;
+    padding: 2px 0 !important;
+}
+
+.nav-item:hover p{
+  display: block !important;
+ 
+}
+.navbar-toggler{
+    margin-left:24px ;
+}
+
+.active{
+    background: transparent !important;
+    border-bottom: 2px solid #45ad78;
+    border-radius: 0 !important;
+}
+
+
+.service-icon{
+    position: relative;
+    margin-left: 10px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+.service-icon:hover span{
+    display: block !important;
+    cursor: pointer;
+   margin-top: -20px;
+}
+.herro-model{
+    width: 92% !important;
+}
+.header-tite{
+    font-size: 50px;
+}
+.statistics{
+    width: 120px;
+   
+}
+/* .skill-title-bg{
+    width: 150px;
+    margin: 0 auto !important;
+    background: #45ad78;
+    box-shadow: 10px 0 0 0;
+} */
+/* .hover-bg{
+   width: 100%;
+   height: 100%;
+   background: #f18f8f;
+   z-index: -1;
+} */
+.brogress-hover:hover{
+    background-color: #796d6d;
+    translate: .1;
+
+}
+
+
+
+.progress-value{
+        margin-top: 25px;
+        margin-left: 10%;
+        width: 40px;
+        height: 40px;
+                
+        clip-path: polygon(50% 0%, 100% 38%, 82% 100%, 18% 100%, 0% 38%);
+                
+                
+                
+                
+}
+
+
+
+.card1 {
+   
+    transition: background-color 2s ease-out 100ms;
+    
+}
+
+.card1:hover {
+    background-color: #585656 !important;
+}
+
+.card1:hover h4, .card1:hover p, .card1:hover button  {
+    color: #ffffff !important;
+    transition: color 2s ease-out 100ms;
+}
+.card1:hover button{
+    border: 1px solid #fff !important;
+    transition: color 2s ease-out 100ms;
+}
+
+.contact i{
+    margin-left: -8%;
+}
+
+.contact{
+    margin-left: 10%;
+    line-height: 2;
+}
